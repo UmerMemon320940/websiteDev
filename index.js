@@ -60,7 +60,7 @@ app.get('/Wash', (req, res) => {
 
 app.get("/safe", (req, res) => {
     res.send(Sorry);
-} )
+} )   
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
